@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levantar pedido</title>
+</head>
+<hr>
+<body>
+    <img src="./LOGO pasteleria.png" alt="logo Pastelería Dulzura" width="150px"</br>
+    <h1>El lado dulce de la vida...</h1>
+    <hr>
+       <h1>Datos de contacto</h1>
+
+            <form action="pedido.json"
+            
+
+            <form action="/accion.js" id="form1" method="post">
+                <label for="nombre">¿cual es tu nombre y apellido?:</label>
+                <input type="text" id="nombre" name="nombre"><br><br>
+                <input type="submit" value="Submit">
+                <input type="reset">
+            </form>
+
+            <label for="tel1">Proporciona un número de celular</label>
+            <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+            
+            <label for="correo1">Proporciona una dirección de Correo</label>
+            <input type="email" id="correo1" name="correo1"><br><br>
+
+            <h2>Fecha de entrega</h2><br>
+         
+            <input type="date" id="fecha1" name="fecha1"><br>
+          
+            <h2>Selecciona la ocasión especial:</h2><br>
+            <input type="radio" id="Bautizo" name="Ocasión" value="Bautizo">
+            <label for="Bautizo">Bautizo</label><br>
+            <input type="radio" id="Cumpleaños" name="Ocasión" value="Cumpleaños">
+            <label for="Cumpleaños">Cumpleaños</label><br>
+            <input type="radio" id="XV Años" name="Ocasión" value="XV Años">
+            <label for="XV años">XV años</label><br>
+            <input type="radio" id="Graduación" name="Ocasión" value="Graduación">
+            <label for="Graduación">Graduación</label><br>
+            <input type="radio" id="Aniversario de Bodas" name="Ocasión" value="Aniversario de Bodas">
+            <label for="Aniversario de Bodas">Aniversario de Bodas</label><br>
+
+            <h2>¿Qué tipo de pastel deseas?:</h2><br>
+            <input type="radio" id="Vintage" name="Sabores" value="Vintage">
+            <label for="Vintage">Vintage</label><br>
+            <input type="radio" id="Primavera" name="Sabores" value="Primavera">
+            <label for="Primavera">Primavera</label><br>
+            <input type="radio" id="Otoño" name="Sabores" value="Otoño">
+            <label for="Otoño">Otoño</label><br>
+            <input type="radio" id="Pasión alborada" name="Sabores" value="Pasión alborada">
+            <label for="Pasión alborada">Pasión alborada</label><br>
+           
+            <h2>¿Desea agregar alguna bebida?</h2><br>
+            <input type="checkbox" id="topping1" name="topping1" value="Café">
+            <label for="topping1">Café</label><br>
+            <input type="checkbox" id="topping2" name="topping2" value="Jugo">
+            <label for="topping2">Jugo</label><br>
+            <input type="checkbox" id="topping3" name="topping3" value="Cerveza">
+            <label for="topping3">Cerveza</label><br><br>
+
+            
+            <input type="button" id="boton1" name="boton1" value="Enviar" onclick="alert('Tu pedido ha sido realizado');"><br><br>
+
+        </form>
